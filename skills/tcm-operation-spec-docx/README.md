@@ -1,6 +1,6 @@
 # tcm-operation-spec-docx 技能说明（中文）
 
-按统一体例与排版生成**《中医XX操作技术规范.docx》**系列文档的工作区技能。
+在 `c:\Users\Administrator\Desktop\tcm-operation-spec-docx` 中，按统一体例与排版生成**《中医XX操作技术规范.docx》**系列文档的工作区技能。
 
 核心做法：**检索权威标准原文 → 按固定体例撰写 → 脚本生成 docx → 排版门禁校验 → 交付并清理临时文件**。
 
@@ -58,13 +58,13 @@ tcm-operation-spec-docx/
 生成文档：
 
 ```powershell
-cd "c:\Users\Administrator\Desktop\新建文件夹"; python gen_xxx.py
+cd "c:\Users\Administrator\Desktop\tcm-operation-spec-docx"; python gen_xxx.py
 ```
 
 排版门禁：
 
 ```powershell
-cd "c:\Users\Administrator\Desktop\新建文件夹"; python ".trae\skills\tcm-operation-spec-docx\scripts\verify_layout.py" "中医中药涂擦治疗操作技术规范.docx" "新文档.docx"
+cd "c:\Users\Administrator\Desktop\tcm-operation-spec-docx"; python ".trae\skills\tcm-operation-spec-docx\scripts\verify_layout.py" "中医中药涂擦治疗操作技术规范.docx" "新文档.docx"
 ```
 
 生成器自检：
